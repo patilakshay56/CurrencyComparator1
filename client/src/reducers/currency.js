@@ -8,7 +8,7 @@ import {
 
 const initialState = {
   currencies: [],
-  selectedCurreniesByCountry: [],
+  selectedCurreniesByCountry: {},
   isLoading: false,
   isError: false,
 };
@@ -37,7 +37,7 @@ export default (state = initialState, action) => {
       return {
         ...state,
         isLoading: false,
-        selectedCurreniesByCountry: [],
+        selectedCurreniesByCountry: {},
       };
     case GET_DEFAULT_CURRENCIES_ERROR:
       return {

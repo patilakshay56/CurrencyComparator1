@@ -62,7 +62,7 @@ CurrencySelection.propTypes = {
   loadCurrencies: PropTypes.func.isRequired,
   currencies: PropTypes.array.isRequired,
   loadCurrenciesAccordingToCountry: PropTypes.func.isRequired,
-  hideCurrencyContainer: PropTypes.bool.isRequired,
+  hideCurrencyContainer: PropTypes.func.isRequired,
   isError: PropTypes.bool.isRequired,
 };
 

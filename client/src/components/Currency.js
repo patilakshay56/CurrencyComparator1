@@ -16,7 +16,7 @@ const Currency = ({ currency, currencyRate }) => {
 
 Currency.propTypes = {
   currency: PropTypes.string.isRequired,
-  currencyRate: PropTypes.string.isRequired,
+  currencyRate: PropTypes.number.isRequired,
 };
 
 export default Currency;
